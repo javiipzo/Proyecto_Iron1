@@ -58,6 +58,16 @@
   background-color: #1b1b1b;
   border: 0.5px solid #64ff35;
 }
+.pr2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #000000;
+  border: 0.5px solid #20ff6a;
+}
 
 #superman{
       margin-left: 180px;
@@ -121,4 +131,107 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #0069d9;
+}
+
+.Heroes_M1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_M1 div {
+  margin-right: 20px;
+}
+
+.Heroes_M1 div:last-child {
+  margin-right: 0;
+}
+.Heroes_M2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_M2 div {
+  margin-right: 20px;
+}
+
+.Heroes_M2 div:last-child {
+  margin-right: 0;
+}
+.Heroes_DC1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_DC1 div {
+  margin-right: 20px;
+}
+
+.Heroes_DC1 div:last-child {
+  margin-right: 0;
+}
+.Heroes_DC2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_DC2 div {
+  margin-right: 20px;
+}
+
+.Heroes_DC2 div:last-child {
+  margin-right: 0;
+}
+
+#IRON{
+
+  width: 485px; 
+  height: auto;
+  display: block;
+}
+#CAPI{
+
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#THOR{
+
+  width: 485px; 
+  height: auto;
+  display: block;
+}
+#HULK{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#SUPER{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#BATMAN{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#AQUA{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#GREEN{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+.texto{
+  color: #ffffff;
+  text-decoration: none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
 }
