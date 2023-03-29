@@ -74,19 +74,18 @@ body{
 }
 
 #superman{
-    margin-left: 10%; /* Usamos porcentaje para hacerlo adaptable */
-    margin-right: 10%; /* Usamos porcentaje para hacerlo adaptable */
-    max-width: 100%; /* Para que no se desborde en pantallas pequeñas */
+    margin-left: 10%;
+    max-width: 90%;
     height: auto;
     display: block;
-}
-#ironman{
-margin-left: auto; /* Centramos horizontalmente */
-margin-right: auto; /* Centramos horizontalmente */
-max-width: 100%; /* Para que no se desborde en pantallas pequeñas */
-height: auto;
-display: block;
-}
+  }
+  
+  #ironman{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 .imag{
   display: flex;
 }
