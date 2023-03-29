@@ -1,0 +1,85 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    /* Ajustar el tamaño de la imagen de Superman */
+    #superman{
+        margin-left: 0;
+        width: 100%; 
+        height: auto;
+        display: block;
+    }
+    
+    /* Ajustar el tamaño de las imágenes de los héroes */
+    .Heroes_M1 div,
+    .Heroes_M2 div,
+    .Heroes_DC1 div,
+    .Heroes_DC2 div {
+      margin-right: 10px;
+    }
+    
+    .Heroes_M1 div:last-child,
+    .Heroes_M2 div:last-child,
+    .Heroes_DC1 div:last-child,
+    .Heroes_DC2 div:last-child {
+      margin-right: 0;
+    }
+    
+    #IRON,
+    #CAPI,
+    #THOR,
+    #HULK,
+    #SUPER,
+    #BATMAN,
+    #AQUA,
+    #GREEN {
+      width: 100%; 
+      height: auto;
+      display: block;
+    }
+    
+    /* Ajustar el ancho del formulario de contacto */
+    .Contacto {
+      width: 90%;
+    }
+  }
+  
+  /* Estilos para ordenadores */
+  @media (min-width: 768px) {
+    /* Ajustar el margen izquierdo de la imagen de Superman */
+    #superman{
+        margin-left: 180px;
+        width: 700px; 
+        height: auto;
+        display: block;
+    }
+    
+    /* Restablecer el margen de las imágenes de los héroes */
+    .Heroes_M1 div,
+    .Heroes_M2 div,
+    .Heroes_DC1 div,
+    .Heroes_DC2 div {
+      margin-right: 20px;
+    }
+    
+    .Heroes_M1 div:last-child,
+    .Heroes_M2 div:last-child,
+    .Heroes_DC1 div:last-child,
+    .Heroes_DC2 div:last-child {
+      margin-right: 0;
+    }
+    
+    #IRON,
+    #CAPI,
+    #THOR,
+    #HULK,
+    #SUPER,
+    #BATMAN,
+    #AQUA,
+    #GREEN {
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    
+    /* Restablecer el ancho del formulario de contacto */
+    .Contacto {
+      width:
