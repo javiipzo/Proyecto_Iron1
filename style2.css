@@ -1,85 +1,247 @@
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    /* Ajustar el tamaño de la imagen de Superman */
-    #superman{
-        margin-left: 0;
-        width: 100%; 
-        height: auto;
-        display: block;
+
+body{
+    background-color: #373737;
+    background-image: url("https://wallpapercave.com/wp/wp7430549.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+    }
+  .centrado header {
+      background-color: #1e1e1e;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 10%;
+      margin: 10%;
+
     }
     
-    /* Ajustar el tamaño de las imágenes de los héroes */
-    .Heroes_M1 div,
-    .Heroes_M2 div,
-    .Heroes_DC1 div,
-    .Heroes_DC2 div {
+  .centrado li {
+      flex-basis: 100%;
       margin-right: 10px;
     }
     
-    .Heroes_M1 div:last-child,
-    .Heroes_M2 div:last-child,
-    .Heroes_DC1 div:last-child,
-    .Heroes_DC2 div:last-child {
-      margin-right: 0;
+  .centrado nav {
+      display: flex;
     }
     
-    #IRON,
-    #CAPI,
-    #THOR,
-    #HULK,
-    #SUPER,
-    #BATMAN,
-    #AQUA,
-    #GREEN {
-      width: 100%; 
-      height: auto;
+  .centrado ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+  .centrado li {
+      margin-right: 10px;
+    }
+    
+    
+  .centrado a {
+      color: #fff;
+      text-decoration: none;
+    }
+  .centrado img {
+      margin: 0 10px;
+      height: 50px;
+      width: auto; 
       display: block;
     }
-    
-    /* Ajustar el ancho del formulario de contacto */
-    .Contacto {
-      width: 90%;
-    }
+  
+.pr {
+  color: #ffffff;
+  text-decoration: none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 5%;
+  background-color: #1b1b1b;
+  border: 0.5px solid #64ff35;
+}
+.pr2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 5%;
+  background-color: #000000;
+  border: 0.5px solid #20ff6a;
+}
+
+#superman{
+      margin-left: 180px;
+      width: 700px; 
+      height: auto;
+      display: block;
+}
+#ironman{
+
+  width: 500px; 
+  height: auto;
+  display: block;
+}
+.imag{
+  display: flex;
+}
+.Contacto {
+    background-color: #f8f9fa;
+    padding: 5%;
+    border-radius: 10px;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    margin: 5%;
   }
   
-  /* Estilos para ordenadores */
-  @media (min-width: 768px) {
-    /* Ajustar el margen izquierdo de la imagen de Superman */
-    #superman{
-        margin-left: 180px;
-        width: 700px; 
-        height: auto;
-        display: block;
-    }
-    
-    /* Restablecer el margen de las imágenes de los héroes */
-    .Heroes_M1 div,
-    .Heroes_M2 div,
-    .Heroes_DC1 div,
-    .Heroes_DC2 div {
-      margin-right: 20px;
-    }
-    
-    .Heroes_M1 div:last-child,
-    .Heroes_M2 div:last-child,
-    .Heroes_DC1 div:last-child,
-    .Heroes_DC2 div:last-child {
-      margin-right: 0;
-    }
-    
-    #IRON,
-    #CAPI,
-    #THOR,
-    #HULK,
-    #SUPER,
-    #BATMAN,
-    #AQUA,
-    #GREEN {
-      width: 400px; 
-      height: auto;
-      display: block;
-    }
-    
-    /* Restablecer el ancho del formulario de contacto */
-    .Contacto {
-      width:
+  .Contacto h2 {
+    text-align: center;
+    font-size: 1em;
+    color: #343a40;
+  }
+  
+  .form-group {
+    margin: 5%;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5%;
+    font-size: 1em;
+    color: #343a40;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #343a40;
+    margin-bottom: 5%;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    width: 50%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+.Heroes_M1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_M1 div {
+  margin-right: 20px;
+}
+
+.Heroes_M1 div:last-child {
+  margin-right: 0;
+}
+.Heroes_M2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_M2 div {
+  margin-right: 20px;
+}
+
+.Heroes_M2 div:last-child {
+  margin-right: 0;
+}
+.Heroes_DC1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_DC1 div {
+  margin-right: 20px;
+}
+
+.Heroes_DC1 div:last-child {
+  margin-right: 0;
+}
+.Heroes_DC2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heroes_DC2 div {
+  margin-right: 20px;
+}
+
+.Heroes_DC2 div:last-child {
+  margin-right: 0;
+}
+
+#IRON{
+
+  width: 485px; 
+  height: auto;
+  display: block;
+}
+#CAPI{
+
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#THOR{
+
+  width: 485px; 
+  height: auto;
+  display: block;
+}
+#HULK{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#SUPER{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#BATMAN{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#AQUA{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+#GREEN{
+  width: 400px; 
+  height: auto;
+  display: block;
+}
+.texto{
+  color: #ffffff;
+  text-decoration: none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
