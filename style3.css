@@ -1,0 +1,494 @@
+@media (max-width: 768px) {
+
+    body{
+        background-color: #373737;
+        background-image: url("https://wallpapercave.com/wp/wp7430549.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        
+        }
+      .centrado header {
+          background-color: #1e1e1e;
+          color: #fff;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          padding: 10%;
+          margin: 10%;
+    
+        }
+        
+      .centrado li {
+          flex-basis: 100%;
+          margin-right: 10px;
+        }
+        
+      .centrado nav {
+          display: flex;
+        }
+        
+      .centrado ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+        }
+        
+      .centrado li {
+          margin-right: 10px;
+        }
+        
+        
+      .centrado a {
+          color: #fff;
+          text-decoration: none;
+        }
+      .centrado img {
+          margin: 0 10px;
+          height: 50px;
+          width: auto; 
+          display: block;
+        }
+      
+    .pr {
+      color: #ffffff;
+      text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%;
+      margin: 5%;
+      background-color: #1b1b1b;
+      border: 0.5px solid #64ff35;
+    }
+    .pr2 {
+      color: #ffffff;
+      text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%;
+      margin: 5%;
+      background-color: #000000;
+      border: 0.5px solid #20ff6a;
+    }
+    
+    #superman{
+        margin-left: 10%;
+        max-width: 90%;
+        height: auto;
+        display: block;
+      }
+      
+      #ironman{
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    .imag{
+      display: flex;
+    }
+    .Contacto {
+        background-color: #f8f9fa;
+        padding: 3%;
+        border-radius: 10px;
+        width: 80%;
+        font-family: Arial, sans-serif;
+        margin: 5%;
+      }
+    
+      .Contacto h2 {
+        text-align: center;
+        font-size: 1em;
+        color: #343a40;
+      }
+    
+      .form-group {
+        margin: 5%;
+      }
+      
+      .form-group label {
+        display: block;
+        margin-bottom: 3%;
+        font-size: 1em;
+        color: #343a40;
+      }
+      .form-group input[type="text"],
+      .form-group input[type="email"] {
+        width: 90%;
+        padding: 5%;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #343a40;
+      }
+      button[type="submit"] {
+        display: block;
+        margin: 0;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #0069d9;
+      }
+    
+    .Heroes_M1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .Heroes_M1 div {
+      margin-right: 0;
+      width: 100%;
+    }
+    
+    .Heroes_M1 div:last-child {
+      margin-right: 0;
+    }
+    .Heroes_M2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .Heroes_M2 div {
+      margin-right: 0;
+      width: 100%;
+    }
+    
+    .Heroes_M2 div:last-child {
+      margin-right: 0;
+    }
+    .Heroes_DC1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .Heroes_DC1 div {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .Heroes_DC1 div:last-child {
+      margin-right: 0;
+    }
+    .Heroes_DC2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .Heroes_DC2 div {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .Heroes_DC2 div:last-child {
+      margin-right: 0;
+    }
+    
+    #IRON{
+    
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #CAPI{
+    
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #THOR{
+    
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #HULK{
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #SUPER{
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #BATMAN{
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #AQUA{
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    #GREEN{
+      width: 90%; 
+      height: auto;
+      display: block;
+    }
+    .texto{
+      color: #ffffff;
+      text-size-adjust: 0.03em;
+      text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+    }
+}
+@media (min-width: 769px) {
+
+    body{
+        background-color: #373737;
+        background-image: url("https://wallpapercave.com/wp/wp7430549.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        
+        }
+      .centrado header {
+          background-color: #1e1e1e;
+          color: #fff;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+        }
+        
+      .centrado li {
+          flex-basis: 100%;
+          margin-right: 10px;
+        }
+        
+      .centrado nav {
+          display: flex;
+        }
+        
+      .centrado ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+        }
+        
+      .centrado li {
+          margin-right: 10px;
+        }
+        
+        
+      .centrado a {
+          color: #fff;
+          text-decoration: none;
+        }
+      .centrado img {
+          margin: 0 10px;
+          height: 50px;
+          width: auto; 
+          display: block;
+        }
+      
+    .pr {
+      color: #ffffff;
+      text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: #1b1b1b;
+      border: 0.5px solid #64ff35;
+    }
+    .pr2 {
+      color: #ffffff;
+      text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: #000000;
+      border: 0.5px solid #20ff6a;
+    }
+    
+    #superman{
+          margin-left: 180px;
+          width: 700px; 
+          height: auto;
+          display: block;
+    }
+    #ironman{
+    
+      width: 500px; 
+      height: auto;
+      display: block;
+    }
+    .imag{
+      display: flex;
+    }
+    .Contacto {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+    .Contacto h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #343a40;
+    }
+    .form-group {
+      margin: 20px 0;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 16px;
+      color: #343a40;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #343a40;
+    }
+    button[type="submit"] {
+      display: block;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+    
+    .Heroes_M1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .Heroes_M1 div {
+      margin-right: 20px;
+    }
+    
+    .Heroes_M1 div:last-child {
+      margin-right: 0;
+    }
+    .Heroes_M2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .Heroes_M2 div {
+      margin-right: 20px;
+    }
+    
+    .Heroes_M2 div:last-child {
+      margin-right: 0;
+    }
+    .Heroes_DC1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .Heroes_DC1 div {
+      margin-right: 20px;
+    }
+    
+    .Heroes_DC1 div:last-child {
+      margin-right: 0;
+    }
+    .Heroes_DC2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .Heroes_DC2 div {
+      margin-right: 20px;
+    }
+    
+    .Heroes_DC2 div:last-child {
+      margin-right: 0;
+    }
+    
+    #IRON{
+    
+      width: 485px; 
+      height: auto;
+      display: block;
+    }
+    #CAPI{
+    
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    #THOR{
+    
+      width: 485px; 
+      height: auto;
+      display: block;
+    }
+    #HULK{
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    #SUPER{
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    #BATMAN{
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    #AQUA{
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    #GREEN{
+      width: 400px; 
+      height: auto;
+      display: block;
+    }
+    .texto{
+      color: #ffffff;
+      text-decoration: none;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+    }
+}
